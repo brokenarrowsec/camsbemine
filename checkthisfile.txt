@@ -1,4 +1,8 @@
-#This is an example of what you may encounter when doing some actual penetration testing.
+# This is an example of what you may encounter when doing some actual penetration testing.
+# At the bottom, you'll see the credentials for that certian camera 
+# Below you'll see an example of what the credentials may look like:
+# [80][www] host: 127.0.0.1   login: user   password: user
+# As you can see, the credentials would end up being user:user; where the username is user and the password is user
 
 hydra -C cred_list.txt -t 12 -f -vV localhost http-get
 
