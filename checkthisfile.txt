@@ -1,3 +1,5 @@
+#This is an example of what you may encounter when doing some actual penetration testing.
+
 hydra -C cred_list.txt -t 12 -f -vV localhost http-get
 
 Hydra v7.5 (c)2013 by van Hauser/THC & David Maciejak - for legal purposes only
