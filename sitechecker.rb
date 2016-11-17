@@ -1,7 +1,6 @@
 #!/bin/ruby
 
-sitecheck = system("grep alias script.html") #Make sure that the camera is one of the ones that the script can attack
-
+sitecheck = system("grep alias script.html")
 if sitecheck == true
   system("chmod +x attack.sh")
   system("./attack.sh")
