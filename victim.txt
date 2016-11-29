@@ -1,1 +1,1 @@
-http://99.6.71.93/
+http://localhost/
