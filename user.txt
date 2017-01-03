@@ -1,0 +1,16 @@
+666666
+888888
+Admin
+Administrator
+Dinion
+admin1
+admin
+administrator
+guest 
+root
+service
+supervisor
+support
+tech
+ubnt
+user

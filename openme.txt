@@ -1,0 +1,4 @@
+# Hydra v8.1 run at 2016-12-06 21:18:54 on ip_list.txt http-get (hydra -C cred_list.txt -t 12 -f -vV -M ip_list.txt -o openme.txt http-get)
+[80][http-get] host: localhost   login: admin   password: password
+# Hydra v8.1 run at 2016-12-06 21:19:39 on ip_list.txt http-get (hydra -C cred_list.txt -t 12 -f -vV -M ip_list.txt -o openme.txt http-get)
+[80][http-get] host: localhost   login: admin   password: password
