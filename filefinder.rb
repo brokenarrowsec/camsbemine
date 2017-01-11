@@ -1,6 +1,6 @@
 #!/bin/ruby
 
-finder = system("grep successfully checkthisfile.txt") #Check for success of Hydra attack
+finder = File.read("openme.txt").include?("<")
 
 if finder == true
   print "Great! You have successfully gained access to a security camera! Please open 'openme.txt', for the IP address of the camera, as well as the credentials.
